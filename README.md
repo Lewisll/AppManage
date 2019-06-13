@@ -5,4 +5,4 @@
 这里仅作部分功能展示，具体可以到底部下载apk 进行体验。
 
 
-#### [**apk下载**](http://note.youdao.com/)
+#### [**apk下载**](https://github.com/Lewisll/AppManage/blob/master/image/appmanage.apk?raw=true)
