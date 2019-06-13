@@ -152,6 +152,7 @@ public class PagerFragment extends BaseFragment {
                     swipeMenuListView.setVisibility(View.GONE);
                     empty_icon.setVisibility(View.VISIBLE);
                 }
+                return;
             }
             partInfoLis = (ArrayList<BaseUtils.AppInfo>) msg.obj;
             if (partInfoLis.size() == 0) {
