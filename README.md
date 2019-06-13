@@ -4,5 +4,16 @@
 # 截图
 这里仅作部分功能展示，具体可以到底部下载apk 进行体验。
 
+### 主页面
+![image](https://github.com/Lewisll/AppManage/blob/master/image/main.gif)  
 
-#### [**apk下载**](https://github.com/Lewisll/AppManage/blob/master/image/appmanage.apk?raw=true)
+### 详情页
+![image](https://github.com/Lewisll/AppManage/blob/master/image/detail.gif) 
+
+### 标签管理
+![image](https://github.com/Lewisll/AppManage/blob/master/image/channel.gif)  
+
+### 搜索页
+![image](https://github.com/Lewisll/AppManage/blob/master/image/search.gif) 
+
+### [**apk下载**](https://github.com/Lewisll/AppManage/blob/master/image/appmanage.apk?raw=true)
