@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/detailAppIcon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="3dp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/detailAppIcon">
+
+            <TextView
+                android:id="@+id/detailAppName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="appname"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/detail_textColor"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/detail_permission"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_below="@id/detailAppName"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button"
+                android:maxWidth="150dp"
+                android:text="@string/detail_permission_tv"
+                android:textColor="@color/detail_permission_button_status" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

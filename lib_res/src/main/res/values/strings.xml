@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">应用管理</string>
+
+    <string name="main_title">应用</string>
+
+    <string name="search_hint">请输入要搜索的应用</string>
+    <string name="search_empty_list">无法找到记录</string>
+
+    <string name="search_keyword_empty_error">搜索关键字不能为空</string>
+
+    <string name="detail_actionBar_text">应用详情</string>
+
+    <string name="detail_tab1">基本信息</string>
+    <string name="detail_packageName">包名</string>
+    <string name="detail_appName">应用名</string>
+    <string name="detail_sign_md5">签名MD5</string>
+    <string name="detail_sign_sha1">签名SHA1</string>
+    <string name="detail_sign_sha256">签名SHA256</string>
+    <string name="detail_versionName">版本名</string>
+    <string name="detail_versionCode">版本号</string>
+    <string name="detail_installTime">安装时间</string>
+    <string name="detail_permission_tv">权限管理</string>
+
+
+    <string name="detail_tab2">存储信息</string>
+    <string name="detail_totalMemory">总计</string>
+    <string name="detail_appMemory">应用</string>
+    <string name="detail_database">数据</string>
+    <string name="detail_cache">缓存</string>
+
+    <string name="detail_tab3">权限信息</string>
+    <string name="detail_tab4">其他</string>
+
+
+    <string name="subscribe_my_category">已选标签</string>
+    <string name="subscribe_manager_category_info_2">单击将标签放到回收框，长按拖拽排序</string>
+    <string name="subscribe_more_category">回收框</string>
+    <string name="drawer_btn_rss">标签管理</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="addButton_toast">此标签已存在，请勿重复添加</string>
+    <string name="addButton">添加成功</string>
+
+    <string name="slide_tag_add">添加标签</string>
+    <string name="slide_tag_open">打开</string>
+    <string name="slide_tag_delete">删除</string>
+
+    <string name="tab_top_title">全部应用</string>
+
+
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rllll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:padding="8dp"
+        android:src="@drawable/search_bg" />
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/iv_icon"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_appName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="appname"
+            android:textColor="#000"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/tv_packageName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="包名： "
+            android:textColor="#848383"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/tv_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="版本号： "
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/tv_versionName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:text="版本名： "
+            android:textSize="11sp" />
+    </LinearLayout>
+</RelativeLayout>
+
